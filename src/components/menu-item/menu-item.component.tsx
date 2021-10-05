@@ -8,7 +8,7 @@ import './menu-item.styles.scss';
 const MenuItemComponent = ({title, imageUrl, size, linkUrl}: Section): JSX.Element => {
 	const history = useHistory();
 	const match = useRouteMatch();
-	console.log(match);
+
 	return (
 		<div
 			className={ `${ size || '' } menu-item` }
